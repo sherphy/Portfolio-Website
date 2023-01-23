@@ -1,0 +1,305 @@
+@import url("https://cdn.jsdelivr.net/npm/hack-font@3/build/web/hack.css");
+
+/* body {
+    background-image: url('../../utils/302527237b44d857c6339664d777c8fd.jpg');
+    background-size: 100vw 100vh;
+    background-repeat: no-repeat;
+} */
+
+/* body {
+    background-color: linear-gradient(to bottom, #f7c0d1 0%, #ffffff 100%);
+} */
+
+/* try changing from body to div.container, the background gets reset */
+.container-about {
+    background: linear-gradient(
+        to right,
+        rgb(237, 218, 248) 0%,
+        rgb(252, 191, 218) 50%,
+        hsla(211, 58%, 79%, 1) 100%
+      );
+    height: 70vh;
+    width: 100vw;
+    /* otherwise it keeps sticking to box position */
+    display: flex;
+    /* position: static; */
+}
+
+.box {
+    /* margin: 5%; */
+    margin: auto;
+    margin-top: 1.5%;
+    width: 80vw;
+    height: 65vh;
+    /* background-color: rgba(254,243,189,0.5); */
+    border-radius: 50px;
+    border: 3px plum double;
+    /* position: relative; */
+    /* background-image: url("https://s3-us-west-2.amazonaws.com/s.cdpn.io/13471/sparkles.gif");
+    background-position: center;
+    mix-blend-mode: color-dodge;
+    opacity: 1;
+    z-index: 2; */
+    /* animation: holoSparkle 15s ease infinite;  */
+    /* box-shadow: -3px -3px 3px 0 rgba(#26e6f7, 0.3), 3px 3px 3px 0 rgba(#f759e4, 0.3), 0 0 6px 2px rgba(#ffe759, 0.3),
+    0 35px 25px -15px rgba(0, 0, 0, 0.3);
+    z-index: 15; */
+    background-image: url("https://cdn.wallpapersafari.com/71/8/Vy3ZxE.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position-y: 7%;
+}
+
+.box > h1 {
+    /* text-align: left; */
+    padding-top: 1.5%;
+    /* padding-left: 5%; */
+    font-family: "BrokenConsoleReg";
+    letter-spacing: 0.2em;
+    /* border-bottom: 2px dotted silver; */
+    color: rgb(207, 147, 147);
+    color: lightcoral;
+    border-top-right-radius: 50px;
+    border-top-left-radius: 50px;
+    font-size: 42px;
+}
+
+#avatar {
+    object-fit: contain;
+    width: 40px;
+    height: 40px;
+    resize: 200%;
+    display: inline;
+    position: absolute;
+    transform: scale(1.4, 1.4);
+}
+
+.profile-photo {
+    margin-left: 3%;
+    margin-top: 6vh;
+    width: 30vh;
+    height: 45vh;
+    /* border: 1px grey solid; */
+    position: relative;
+    float: left;
+}
+
+#profile-border {
+    width: 25vh;
+    height: 25vh;
+    margin-left: 8%;
+    margin-top: -12%;
+    position: absolute;
+    z-index: 1;
+}
+
+#profile-border-2 {
+    width: 22vh;
+    height: 22vh;
+    margin-left: 9%;
+    position: absolute;
+    z-index: 1;
+    margin-top: -4%;
+}
+
+#profile-pic {
+    border-radius: 100px;
+    width: 18vh;
+    height: 18vh;
+    margin-left: 21%;
+    position: relative;
+    margin-top: -1%;
+}
+
+.profile-photo > h3 {
+    margin-top: 20%;
+    margin-left: 7%;
+    border-radius: 15px;
+    color: rgb(170,157,232);
+    background-color: rgba(241,214,255,0.7);
+    border: 3px #dc9db0 double;
+    /* background-image: url("https://www.freeiconspng.com/thumbs/cherry-blossom/download-cherry-blossom-high-quality-png-24.png"); */
+}
+
+#sakura-bot {
+    height: 2vy;
+    width: 2vw;
+    margin-left: 88%;
+    bottom: 35%;
+    transform: rotate(180deg);
+    position: absolute;
+}
+
+#sakura-top {
+    height: 2vy;
+    width: 2vw;
+    margin-left: 5%;
+    bottom: 43%;
+    position: absolute;
+}
+
+.socials {
+    margin: 5% 5%;
+    display: inline-flex;
+}
+
+#github:hover, #linkedin:hover{
+    transform: scale(1.1);
+    transition: 0.4s ease-in-out;
+    border: 1px silver outset;
+}
+
+.socials h6 {
+    /* background-color: #afa8aa;
+    border-radius: 25px; */
+    color: grey;
+    font-size: 15px;
+    /* margin: 0 0.75rem;
+    padding-top: 0.1rem; */
+}
+
+.text-section {
+    font-family: "dogica";
+    word-spacing: 0.2rem;
+    letter-spacing: 0.2rem;
+    margin-left: 27.5%;
+    margin-right: 5%;
+    margin-top: 1%;
+    display: flex;
+    height: 48vh;
+    background-color: rgba(250, 235, 215, 0.308);
+    border: 3px rgba(241, 232, 155, 0.877) solid;
+    border-radius: 25px;
+    padding: 1% 2%;
+}
+
+.badge-section {
+    width: 100%;
+}
+
+.badge-section > h1 {
+    color: rgb(170,157,232);
+    text-align: left;
+}
+
+.skills > h1 {
+    color: rgb(170,157,232);
+    text-align: left;
+    margin-top: 2%;
+}
+
+.nus {
+    height: 15vh;
+    min-width: 700px;
+}
+
+.text-sect {
+    height: 15vh;
+    min-width: 1100px;
+}
+
+.text-sect > h6 {
+    font-family: Hack, monospace;
+    font-size: 120%;
+    color:grey;
+    /* color: lightcoral; */
+    text-align: left;
+    margin-left: 10%;
+    padding-top: 0.4%;
+    letter-spacing: normal;
+}
+
+
+.badge {
+    height: 70%;
+    width: auto;
+    margin-top: 3.5%;
+    float: left;
+}
+
+#fullname-nus {
+    margin: 20%;
+    text-decoration-line: underline;
+    font-family: Hack, monospace;
+    font-size: 20px;
+    color:grey;
+    /* color: lightcoral; */
+    text-align: left;
+    margin-left: 10%;
+    padding-top: 0.4%;
+    letter-spacing: normal;
+}
+
+.skills {
+    height: 53%;
+}
+
+.skills-section {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
+
+.programming > h1, .engineering > h1, .finance > h1 {
+    font-family: Hack, monospace;
+    font-size: 20px;
+    color:grey;
+    /* color: lightcoral; */
+    text-align: left;
+    letter-spacing: normal;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    text-decoration: underline;
+}
+
+.subsection {
+    min-width: 255px;
+    align-items: center;
+    justify-content: center;
+}
+
+.subsection > h6 { 
+    font-family: Hack, monospace;
+    font-size: 14px;
+    color:grey;
+    text-align: left;
+    letter-spacing: -0.02em;
+    word-spacing: -0.5em;
+    display:flex;
+    align-items: center;
+    justify-content: center;
+    min-width: 265px;
+    margin-top: 1.5%;
+}
+
+#two-word {
+    word-spacing: -0.3em;
+}
+
+
+.skill-icon {
+    margin: 0% 2%;
+}
+
+@media (max-width: 540px) {
+    .badge-section > h1, .skills > h1 {
+        font-size: small;
+    }
+}
+
+@media (max-width: 900px) {
+    .nus > h6 {
+        padding-left: 5%;
+    }
+}
+
+@media (max-width: 1500px) {
+    
+}
+
+
+/* for the psychedelic retro pages 
+background-image: url(frame.png);
+background-position: center;
+background-size: 260% 195%; */
+
