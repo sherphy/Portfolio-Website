@@ -1,0 +1,92 @@
+
+.background {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background: url(https://64.media.tumblr.com/cc2305ee7feb6414fedf31180220f9c1/tumblr_pvd748B0Pb1w4rdr7o1_500.gif);
+    background-size: 100% 110%;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 30vh;
+    width: 100vw;
+  }
+
+  .parent-box {
+    width:120%;
+    padding-left: 17.5%;
+    margin-bottom: 1%;
+  }
+
+  .top-words {
+    font-family: serif;
+    font-size: 125%;
+    color: #4A4A4A;
+    width:80%;
+    height: 5%;
+    text-align: left;
+    padding-left: 2%;
+    word-spacing: 1em;
+    background-color: rgba(252, 215, 242, .5);
+    border: 3px solid rgba(255,255,255,.5);
+    border-top: 10px solid rgba(255,255,255,.5);
+    border-bottom: 0px;
+    /* TRY TO NOT USE ABSOLUTE */
+    /* position: absolute; */
+    vertical-align: bottom;
+    /* for the wordings */
+    display: flex;
+  }
+
+  #contact {
+    margin: 0% 2%;
+  }
+
+  .frosted-glass {
+    justify-content: center;
+    align-items: center;
+    width: 80%;
+    height: 70%;
+    box-shadow: 0 0.3px 0.7px rgba(0, 0, 0, 0.126),
+      0 0.9px 1.7px rgba(0, 0, 0, 0.179), 0 1.8px 3.5px rgba(0, 0, 0, 0.224),
+      0 3.7px 7.3px rgba(0, 0, 0, 0.277), 0 10px 20px rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(20px);
+    transition: 0.5s ease;
+    border: 3px solid rgba(255,255,255,.5);
+}
+
+.font-face-bcb, .font-face-bcbblink {
+    font-family: "BrokenConsoleBold";
+    font-size: 60pt;
+    background: -webkit-linear-gradient(pink,aquamarine);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    line-height: 130%;
+    padding-top: 1%;
+}
+
+.font-face-bcbblink {
+    animation: blinker 1.5s linear infinite;
+}
+
+.font-face-bcr {
+    font-family: "BrokenConsoleReg";
+    color: white;
+    font-size: 15pt;
+    letter-spacing: 0.2em;
+    display: inline;
+}
+
+.font-face-bcrblink {
+    font-family: "BrokenConsoleReg";
+    color: white;
+    font-size: 15pt;
+    letter-spacing: 0.2em;
+    animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+    50% {
+      opacity: 0;
+    }
+  }
+
