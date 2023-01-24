@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/sherphy.github.io/static/css/main.055c8f36.css",
+    "main.js": "/sherphy.github.io/static/js/main.76857549.js",
+    "static/media/sakura.png": "/sherphy.github.io/static/media/sakura.12b0814c2f6e83aca4a9.png",
+    "static/media/profilepicsq1.png": "/sherphy.github.io/static/media/profilepicsq1.f3911e8890684a5f0453.png",
+    "static/media/Broken Console Regular.ttf": "/sherphy.github.io/static/media/Broken Console Regular.3058d9fbd65f3e5f239c.ttf",
+    "static/media/Broken Console Bold.ttf": "/sherphy.github.io/static/media/Broken Console Bold.5261fa59fa649e02389f.ttf",
+    "static/media/Fipps-Regular.otf": "/sherphy.github.io/static/media/Fipps-Regular.03d277fc2c330359cf58.otf",
+    "static/media/dogica.ttf": "/sherphy.github.io/static/media/dogica.214cd23097c4c02eb9bd.ttf",
+    "index.html": "/sherphy.github.io/index.html",
+    "main.055c8f36.css.map": "/sherphy.github.io/static/css/main.055c8f36.css.map",
+    "main.76857549.js.map": "/sherphy.github.io/static/js/main.76857549.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.055c8f36.css",
+    "static/js/main.76857549.js"
+  ]
+}
