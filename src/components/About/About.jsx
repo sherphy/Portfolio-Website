@@ -57,9 +57,9 @@ function About() {
                                     <h1> <RiComputerLine className="skill-icon" /> PROGRAMMING <RiComputerLine className="skill-icon" /></h1>
                                     <div className="subsection">
                                         <h6> Java | C | CSS/HTML/JS | SQL </h6>
-                                        <h6> Python | Solidity </h6>
-                                        <h6> React | Firebase | Figma | AWS | Node </h6>
-                                        <h6> Fullstack | IoT | DevOps </h6>
+                                        <h6> Python | Solidity | Selenium </h6>
+                                        <h6> React | Firebase | Figma | AWS </h6>
+                                        <h6> Fullstack | IoT </h6>
                                     </div>
                                 </div>
                                 <div className="engineering">
@@ -68,7 +68,6 @@ function About() {
                                         <h6> Transport | Hydraulic | Project </h6>
                                         <h6> Environment | Structural | Geotech </h6>
                                         <h6> AutoDesk | MATLAB | ETABS | MSProject </h6>
-                                        <h6> PM | ConTech | Sustainability | Codes </h6>
                                     </div>
                                 </div>
                                 <div className="finance">
@@ -77,7 +76,6 @@ function About() {
                                         <h6> Patents | VC | M&A | SEO/SEM</h6>
                                         <h6> <span id="two-word">Financial Statements </span> </h6>
                                         <h6> Google Adwords | PatSnap | Questel</h6>
-                                        <h6> Accounting | Economics | Start-ups</h6>
                                     </div>
                                     <h6> </h6>
                                 </div>
